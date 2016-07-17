@@ -1,0 +1,12 @@
+server:
+  port: 8000
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/jidoka-be/Spring-Cloud-Configuration.git
+#          uri: https://bitbucket.org/jdkdevteam/configuration.git
+#          username: martijn.haex@jidoka.be
+#          password: '{cipher}AQA5ekK4i2lPhQog7d2Nk3hMFE7Uc1HnVbn5qVze+uHfP1EpXwb2AnhHz20qPd2X0TC+Bk6Q+UASsNeMcwA9n2rMniTU6viJ8sHlX0cZRY20AmPrL/FwC7gCvHsteeHipYiUffw1OIDdw1gZuF6Y5RkdeyUDLW+igv7Us2sm+bF+HhzBx3SthrSJsSuIAv7lYr7WafLrDOCswpMTvmpqdts2sMo9+sUxv/P0FZkPs/0ZMI5XD4HrqoZSzdUyjV9RqjGDQiCXj9HA3olSIZyAMDdNK+aLrpnSXkUeIWZ0xqFC9wEOi80FGDFREM5+f3Es2OH4pEqEHbPZYl4jf4FAcgJVUFhhkDatllFWYZH5ULH8UKaxWx29eCLrH7BMnrtduiDfquLDcpCHUrw9zT2+xsK4'
