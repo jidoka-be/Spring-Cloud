@@ -1,0 +1,35 @@
+INSERT INTO sector (name) VALUES ('Agriculture');
+INSERT INTO sector (name) VALUES ('Mining');
+INSERT INTO sector (name) VALUES ('Oil and Gas');
+INSERT INTO sector (name) VALUES ('Public utilities');
+INSERT INTO sector (name) VALUES ('Construction');
+INSERT INTO sector (name) VALUES ('Manufacturing');
+INSERT INTO sector (name) VALUES ('Wholesale Trade');
+INSERT INTO sector (name) VALUES ('Retail Trade');
+INSERT INTO sector (name) VALUES ('Transportation and Warehousing');
+INSERT INTO sector (name) VALUES ('Information & communication technology');
+INSERT INTO sector (name) VALUES ('Finance and Insurance');
+INSERT INTO sector (name) VALUES ('Real estate');
+INSERT INTO sector (name) VALUES ('Rental and Leasing');
+INSERT INTO sector (name) VALUES ('Professional Services');
+INSERT INTO sector (name) VALUES ('Scientific Services');
+INSERT INTO sector (name) VALUES ('Technical Services');
+INSERT INTO sector (name) VALUES ('Management of Companies');
+INSERT INTO sector (name) VALUES ('Waste Management');
+INSERT INTO sector (name) VALUES ('Remediation Services');
+INSERT INTO sector (name) VALUES ('Educational Services');
+INSERT INTO sector (name) VALUES ('Healthcare and Social Assistance');
+INSERT INTO sector (name) VALUES ('Arts, Entertainment and Recreation');
+INSERT INTO sector (name) VALUES ('Accommodation Services');
+INSERT INTO sector (name) VALUES ('Food Services');
+INSERT INTO sector (name) VALUES ('Public Administration');
+INSERT INTO sector (name) VALUES ('Other Services');
+
+INSERT INTO company (id, name, number_of_employees, website, description, sector_id) VALUES (1, 'JIDOKA', 'LESS_THEN_50', 'http://www.jidoka.be', 'Jidoka is a lean/Agile software services provider That focuses on good requirements, good design & development.  Technology focus is Java, .Net & Mobile', 'Information & communication technology');
+INSERT INTO company (id, name, number_of_employees, website, description, sector_id) VALUES (2, 'ceGEKa', 'LESS_THEN_10000', 'http://www.cegeka.be', 'ceGEKa tries to be an agile software services provider That focuses on poor requirements, and even worse design & development.  Technology focus is absent.', 'Information & communication technology');
+INSERT INTO company (id, name, number_of_employees, website, description, sector_id) VALUES (3, 'IPC', 'LESS_THEN_100', 'https://www.ipc.be/', 'International Post Corporation is the postal industry’s partner company that provides leadership through service quality, postal technology and market intelligence and gives its members a collective voice.', 'Other Services');
+INSERT INTO company (id, name, number_of_employees, website, description, sector_id) VALUES (4, 'Thanksys', 'LESS_THEN_50', 'http://www.thanksys.com/', 'Thanksys is a join venture between the largest Belgian bankassurer KBC and VikingCo, the company behind the community driven mobile operator. Thanksys is backed up by the regional investment company LRM.', 'Other Services');
+
+INSERT INTO project (id, name, description, company_id) VALUES (1, 'CCDS', 'IPC is in the process of migrating core legacy systems to a new IT infrastructure. The CCDS program aims to have one software solution for all international postal agreements.', 3);
+INSERT INTO project (id, name, description, company_id) VALUES (2, 'iPep', 'The iPep solution allows for easier and more sophisticated exchange of REIMS accounting data via the web. Currently, modules for the processing of sampling information (eNO1), mail volume data (e55) are available.', 3);
+INSERT INTO project (id, name, description, company_id) VALUES (3, 'MySanderus', 'MySanderus is a portlet application allowing users to online register for driving lessons. After registration a registered user can pay their invoices online (through ATOS Wordline) and access their appointments', 1);
