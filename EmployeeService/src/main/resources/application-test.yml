@@ -1,0 +1,8 @@
+project:
+  description: A TEST description of a project
+  company:
+    name: A TEST name of a company
+    description: A TEST description of a company
+    employeeCount: 10-49
+    website: http://www.google.com
+    sector: Information & communication technology
